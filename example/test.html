@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test lx011-i18n</title>
+  <meta i18n='/example/static/i18n/test/test.{lang}'>
+  <script src='./../dist/i18n.esm.js'></script>
+</head>
+<body>
+  <div>
+    <button i18n-lang-btn='en' i18n-def>EN</button>
+    <button i18n-lang-btn='cn'>CN</button>
+  </div>
+  <p i18n-c=1></p>
+  <input type="text" i18n-c-ph=2>
+  <p i18n-k=hello i18n-o>你好</p>
+  <p i18n-k=hi>嗨</p>
+  <p i18n-p=1 i18n-o>测试页面 - 测试数据 - 1</p>
+  <p i18n-p=2></p>
+  <img i18n-p-i=4>
+  <p i18n-s class='a1 a3'>
+</body>
+</html>
