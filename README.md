@@ -10,23 +10,45 @@ yarn dev
 yarn serve
 ```
 
+## Usage
+
+```bash
+npm i @lx011/i18n
+# or
+yarn add @lx011/i18n
+```
+
+```js
+/* js file */
+
+// require('@lx011/i18n')
+import '@lx011/i18n'
+```
+
 ## Project Structure
 
-```yml
+```bash
+# path: **/i18n/**/*.json
+# common file: **/i18n/pub/*.json
+
 [project]
 |- [**/i18n]
-|     |- [{lang}]
-|     |      `- *.json
-|     `- ...
+|     |- [{lang}] # language
+|     |      `- *.json # page
+|     `- [pub]
+|         |- common.{lang}.json
+|         `- keyword.{lang}.json
 ` ..
 
-OR
+# OR
 
 [project]
 |- [**/i18n]
-|    |- [**]
+|    |- [**] # page
 |    |   `- *.{lang}.json
-|    `- ...
+|    `- [pub]
+|         |- common.{lang}.json
+|         `- keyword.{lang}.json
 ` ...
 ```
 

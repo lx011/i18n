@@ -1,4 +1,4 @@
-import getData from "./newFile";
+import getData from "./http";
 
 const i18nTypes = ['c', 'k', 'p', 's', 'p-ph', 'c-ph', 'k-ph', 'p-i', 'c-i', 'k-i']
 
