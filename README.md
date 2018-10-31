@@ -1,5 +1,7 @@
 # lx011-i18n
 
+> The internationalization (i18n) library for JavaScript. Support for i18n of text, images, placeholders, styles.
+
 ```bash
 yarn
 
@@ -83,4 +85,14 @@ OR
 
 <!-- **/i18n/**/*.{lang}.json -->
 <meta i18n='/your_path/i18n/path_file_name.{lang}'>
+
+<!-- i18n-lang-btn: language button -->
+<!-- i18n-def: default language -->
+<!-- class='i18n-active': current language -->
+<div>
+  <button i18n-lang-btn='en' i18n-def>EN</button>
+  <button i18n-lang-btn='cn'>CN</button>
+  <!-- <button i18n-lang-btn='**'>**</button> -->
+  <!-- ... -->
+</div>
 ```

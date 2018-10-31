@@ -1,9 +1,11 @@
 {
   "name": "@lx011/i18n",
-  "version": "0.0.1",
-  "description": "i18n",
+  "version": "0.0.2",
+  "description": "The internationalization (i18n) library for JavaScript. Support for i18n of text, images, placeholders, styles",
   "main": "dist/i18n.umd.js",
   "module": "dist/i18n.esm.js",
+  "author": "lencx <cxin1314@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -21,19 +23,22 @@
       "git add"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lx011/i18n.git"
-  },
   "keywords": [
-    "i18n"
+    "i18n",
+    "internationalization",
+    "text",
+    "images",
+    "style",
+    "placeholder"
   ],
-  "author": "lencx <cxin1314@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lx011/i18n/issues"
   },
-  "homepage": "https://github.com/lx011/i18n#readme",
+  "homepage": "https://github.com/lx011/i18n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lx011/i18n.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "babel-eslint": "^10.0.1",
