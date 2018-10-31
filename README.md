@@ -37,7 +37,7 @@ import '@lx011/i18n'
 |     |      `- *.json # page
 |     `- [pub]
 |         |- common.{lang}.json
-|         `- keyword.{lang}.json
+|         `- keywords.{lang}.json
 ` ..
 
 # OR
@@ -48,7 +48,7 @@ import '@lx011/i18n'
 |    |   `- *.{lang}.json
 |    `- [pub]
 |         |- common.{lang}.json
-|         `- keyword.{lang}.json
+|         `- keywords.{lang}.json
 ` ...
 ```
 
@@ -62,8 +62,8 @@ import '@lx011/i18n'
 |keywords|i18n-k|keywords|i18n-k='key_name'|
 |page|i18n-p|page|i18n-p='key_name'|
 |class|i18n-s|currect element class(style)|i18n-s|
-|image|i18n-(c\|k\|p)-i|(common \| keyword \| page) image path |i18n-(c\|k\|p)-i='key_name'|
-|pleceholder|i18n-(c\|k\|p)-ph|(common \| keyword \| page) placeholder |i18n-(c\|k\|p)-ph='key_name' |
+|image|i18n-(c\|k\|p)-i|(common \| keywords \| page) image path |i18n-(c\|k\|p)-i='key_name'|
+|pleceholder|i18n-(c\|k\|p)-ph|(common \| keywords \| page) placeholder |i18n-(c\|k\|p)-ph='key_name' |
 |off|i18n-o|close translate(off)|i18n-o|
 
 * key_name: `i18n key name`

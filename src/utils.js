@@ -7,7 +7,7 @@ const getLang = () => window.localStorage.getItem('lx011I18nLang')
 
 const getJSON = (uri, type, _el, _attr, i) => {
   _el.forEach(j => {
-    if(j.getAttribute('i18n-o') === null) {
+    if(j.getAttribute('i18n-o') === null) { // i18n off
       getData(uri, data => {
         const val = j.getAttribute(_attr)
         if(i === type) j.innerHTML = data[val]

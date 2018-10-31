@@ -32,7 +32,7 @@ window.addEventListener('load', () => {
             case /^c((-ph)?|(-i)?)$/.test(i): // common
               getJSON(`${basePath}/pub/common.${getLang()}.json`, 'c', _el, _attr, i)
               break
-            case /^k(-ph)?$/.test(i): // keyword
+            case /^k(-ph)?$/.test(i): // keywords
               getJSON(`${basePath}/pub/keywords.${getLang()}.json`, 'k', _el, _attr, i)
               break
             case /^p((-ph)?|(-i)?)$/.test(i): // current page
