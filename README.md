@@ -1,4 +1,4 @@
-# lx011-i18n
+# nofwl-i18n
 
 > The internationalization (i18n) library for JavaScript. Support for i18n of text, images, placeholders, styles.
 
@@ -15,16 +15,16 @@ yarn serve
 ## Usage
 
 ```bash
-npm i @lx011/i18n
+npm i @nofwl/i18n
 # or
-yarn add @lx011/i18n
+yarn add @nofwl/i18n
 ```
 
 ```js
 /* js file */
 
-// require('@lx011/i18n')
-import '@lx011/i18n'
+// require('@nofwl/i18n')
+import '@nofwl/i18n'
 ```
 
 ## Project Structure

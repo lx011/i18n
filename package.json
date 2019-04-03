@@ -1,5 +1,5 @@
 {
-  "name": "@lx011/i18n",
+  "name": "@nofwl/i18n",
   "version": "0.0.2",
   "description": "The internationalization (i18n) library for JavaScript. Support for i18n of text, images, placeholders, styles",
   "main": "dist/i18n.umd.js",
@@ -32,13 +32,10 @@
     "placeholder"
   ],
   "bugs": {
-    "url": "https://github.com/lx011/i18n/issues"
+    "url": "https://github.com/nofwl/i18n/issues"
   },
-  "homepage": "https://github.com/lx011/i18n",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lx011/i18n.git"
-  },
+  "homepage": "https://github.com/nofwl/i18n",
+  "repository": "git@github.com:nofwl/i18n.git",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "babel-eslint": "^10.0.1",

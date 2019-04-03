@@ -2,8 +2,8 @@ import getData from "./http";
 
 const i18nTypes = ['c', 'k', 'p', 's', 'p-ph', 'c-ph', 'k-ph', 'p-i', 'c-i', 'k-i']
 
-const setLang = lang => window.localStorage.setItem('lx011I18nLang', lang)
-const getLang = () => window.localStorage.getItem('lx011I18nLang')
+const setLang = lang => window.localStorage.setItem('nofwlI18nLang', lang)
+const getLang = () => window.localStorage.getItem('nofwlI18nLang')
 
 const getJSON = (uri, type, _el, _attr, i) => {
   _el.forEach(j => {
